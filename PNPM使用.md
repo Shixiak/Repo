@@ -35,3 +35,9 @@ Run "pnpm approve-builds" to pick which dependencies should be allowed to run sc
 ```
 
 这是 pnpm v8+ 引入的新的安全机制：pnpm 默认不在自动执行依赖中的构建脚本（build scripts），以防止潜在的恶意代码执行。
+
+## deploy
+
+deploy 是 pnpm 提供的一个产物裁剪工具.
+
+它的作用是从一个 monorepo 中, 把某个子包挑出来, 根据该子包的 package.jjson 里面的依赖, 以及根目录的 pnpm-lock.yaml, 裁剪出一个独立可运行的目录(包含 dist, 必须的 node_modules), 用来直接部署到服务器.
