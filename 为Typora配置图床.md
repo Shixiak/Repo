@@ -13,8 +13,8 @@
   "picBed": {
     "current": "aliyun",
     "aliyun": {
-        "accessKeyId": "LTAI5t9XEs9h2Nt39sW9JLyv",
-        "accessKeySecret": "m8RTZoYZVhYkce0IC5YSAuhvY0tNSl",
+        "accessKeyId": "xxx",
+        "accessKeySecret": "xxx",
         "bucket": "kat-tc",
         "area": "oss-cn-chengdu"
     }
