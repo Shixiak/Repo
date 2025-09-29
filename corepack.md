@@ -32,3 +32,17 @@ corepack use pnpm@10.13.1
 ```
 
 这是为了让其他人在拉取这个项目时，也能通过 corepack 自动使用同样的 pnpm 版本。
+
+## 启动某个版本的 pnpm
+
+首先启用 corepack:
+
+```bash
+corepack enable
+```
+
+然后在项目目录下执行：
+
+```bash
+corepack prepare pnpm@10.13.1 --activate
+```
